@@ -1,9 +1,9 @@
 import Image from 'react-bootstrap/Image';
-import LogoSC from '../assets/images/LogoSC.png';
-import LogoFacebook from '../assets/images/Logo-Facebook.png';
-import LogoInstagram from '../assets/images/Logo-Instagram.png';
-import LogoTiktok from '../assets/images/Logo-Tiktok.png';
-import LogoYoutobe from '../assets/images/Logo-Youtobe.png';
+import LogoSC from '../../assets/images/LogoSC.png';
+import LogoFacebook from '../../assets/images/Logo-Facebook.png';
+import LogoInstagram from '../../assets/images/Logo-Instagram.png';
+import LogoTiktok from '../../assets/images/Logo-Tiktok.png';
+import LogoYoutobe from '../../assets/images/Logo-Youtobe.png';
 const Footer = () => {
     return (
         <div className='d-flex justify-content-between container py-5 '>

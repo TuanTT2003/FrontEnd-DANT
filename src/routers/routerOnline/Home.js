@@ -1,5 +1,5 @@
-import BannerDangNhap from '../assets/images/Banner-Login.png';
-import Login from '../components/Login';
+import BannerDangNhap from '../../assets/images/Banner-Login.png';
+import Login from '../../components/Login';
 
 const Home = () => {
     return (

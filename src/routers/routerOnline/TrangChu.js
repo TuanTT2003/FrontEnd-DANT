@@ -6,7 +6,6 @@ const TrangChu = () => {
             <div className="container border rounded border border-white bg-white " style={{ height: 534, width: 1240 }}>
 
 
-
             </div>
         </div>
     )

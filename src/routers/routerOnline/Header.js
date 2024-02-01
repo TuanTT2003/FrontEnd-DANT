@@ -7,12 +7,12 @@ import InputGroup from 'react-bootstrap/InputGroup';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Image from 'react-bootstrap/Image';
-import LogoSC from '../assets/images/LogoSC.png';
-import LogoGioHang from '../assets/images/Logo-GioHang.png';
-import LogoUser from '../assets/images/Logo-user.png';
-import LogoThongBao from '../assets/images/Logo-ThongBao.png';
-import LogoSearch from '../assets/images/Logo-Search.png';
-import LogoHome from '../assets/images/Logo-Home.png';
+import LogoSC from '../../assets/images/LogoSC.png';
+import LogoGioHang from '../../assets/images/Logo-GioHang.png';
+import LogoUser from '../../assets/images/Logo-user.png';
+import LogoThongBao from '../../assets/images/Logo-ThongBao.png';
+import LogoSearch from '../../assets/images/Logo-Search.png';
+import LogoHome from '../../assets/images/Logo-Home.png';
 const Header = () => {
     return (
         <>
@@ -41,11 +41,12 @@ const Header = () => {
                             <Image src={LogoUser} />
 
                         </div>
+
                         <NavDropdown id="basic-nav-dropdown"  >
                             <NavDropdown.Item href="Login">Đăng nhập</NavDropdown.Item>
 
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="Login">
+                            <NavDropdown.Item href="/SC-Online/Login">
                                 Đăng ký
                             </NavDropdown.Item>
                         </NavDropdown>
@@ -64,9 +65,9 @@ const Header = () => {
                         <Container >
                             <Navbar.Collapse id="basic-navbar-nav ">
                                 <Nav className="me-auto fw-bold " style={{ marginLeft: 300 }}>
-                                    <NavLink to="/TrangChu" className='nav-link'> <Image src={LogoHome} /> &nbsp;Trang chủ </NavLink>
-                                    <NavLink to="/SanPham" className='nav-link mx-5'>Cửa hàng</NavLink>
-                                    <NavLink to="/DetailSanPham" className='nav-link'>Tra cứu hóa đơn </NavLink>
+                                    <NavLink to="/SC-Online/TrangChu" className='nav-link'> <Image src={LogoHome} /> &nbsp;Trang chủ </NavLink>
+                                    <NavLink to="/SC-Online/SanPham" className='nav-link mx-5'>Cửa hàng</NavLink>
+                                    <NavLink to="/SC-Online/DetailSanPham" className='nav-link'>Tra cứu hóa đơn </NavLink>
                                     <NavDropdown title="Trang" id="basic-nav-dropdown" className='mx-5'>
                                         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                                         <NavDropdown.Item href="#action/3.2">
@@ -78,7 +79,7 @@ const Header = () => {
                                             Separated link
                                         </NavDropdown.Item>
                                     </NavDropdown>
-                                    <NavLink to="/LienHe" className='nav-link'>Liên hệ </NavLink>
+                                    <NavLink to="/SC-Online/LienHe" className='nav-link'>Liên hệ </NavLink>
                                 </Nav>
                             </Navbar.Collapse>
                         </Container>
