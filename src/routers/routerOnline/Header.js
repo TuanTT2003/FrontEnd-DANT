@@ -13,14 +13,16 @@ import LogoUser from '../../assets/images/Logo-user.png';
 import LogoThongBao from '../../assets/images/Logo-ThongBao.png';
 import LogoSearch from '../../assets/images/Logo-Search.png';
 import LogoHome from '../../assets/images/Logo-Home.png';
+import LogoSell from '../../assets/images/Logo-Sell.png';
+
 const Header = () => {
     return (
         <>
             <div>
                 <div className='d-flex justify-content-between container '>
                     <div className='logo'>
-                        <Image src={LogoSC} />
-                        <div className='name-shop fs-3 fw-bold ms-4' >&nbsp;SC Shop</div>
+                        <Image src={LogoSell} />
+                        <div className='name-shop fs-3 fw-bold ' >&nbsp;SellSmart Codes</div>
                     </div>
 
                     <div className='search mt-4 '>

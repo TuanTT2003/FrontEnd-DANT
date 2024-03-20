@@ -4,13 +4,13 @@ import LogoFacebook from '../../assets/images/Logo-Facebook.png';
 import LogoInstagram from '../../assets/images/Logo-Instagram.png';
 import LogoTiktok from '../../assets/images/Logo-Tiktok.png';
 import LogoYoutobe from '../../assets/images/Logo-Youtobe.png';
+import LogoSell from '../../assets/images/Logo-Sell.png';
 const Footer = () => {
     return (
         <div className='d-flex justify-content-between container py-5 '>
             <div className='logo '>
-                <Image src={LogoSC} />
-                <div className='name-shop fs-3 fw-bold ms-4' >&nbsp;SC Shop</div>
-                <div className='name-shop fs-3 fw-bold ms-4' >&nbsp;SneakerCentral</div>
+                <Image src={LogoSell} />
+                <div className='name-shop fs-3 fw-bold ' >&nbsp;SellSmart Codes</div>
             </div>
             <div>
                 <div className='fs-4 fw-bold '>
